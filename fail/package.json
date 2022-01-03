@@ -1,0 +1,25 @@
+{
+  "name": "repro-bug",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "For reproducing bugs.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oof2win2/bug-repro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oof2win2/bug-repro/issues"
+  },
+  "homepage": "https://github.com/oof2win2/bug-repro#readme",
+  "dependencies": {
+    "@anatine/zod-openapi": "^1.2.1",
+    "zod": "^3.11.6"
+  }
+}
