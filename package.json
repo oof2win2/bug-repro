@@ -1,0 +1,22 @@
+{
+  "name": "bug-repro",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "git@github.com:oof2win2/bug-repro.git",
+  "author": "oof2win2 <honza.koco44@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0",
+    "mongodb-memory-server": "^8.5.2",
+    "ts-jest": "^28.0.2",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^9.8.1",
+    "mongoose": "^6.3.3"
+  }
+}
